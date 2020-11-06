@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="650"
+   height="650"
+   viewBox="0 0 650 650"
+   version="1.1"
+   id="svg31"
+   inkscape:version="1.0.1 (1.0.1+r73)"
+   sodipodi:docname="logoTwiter.svg">
+  <defs
+     id="defs25">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath20">
+      <path
+         d="M 0,790.889 H 900 V 0 H 0 Z"
+         id="path18" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath20-4">
+      <path
+         d="M 0,790.889 H 900 V 0 H 0 Z"
+         id="path18-4" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="261.2871"
+     inkscape:cy="326.29472"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer3"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="1600"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="false" />
+  <metadata
+     id="metadata28">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 2">
+    <path
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 537.57935,64.609558 c 32.878,-5.847634 56.88708,-18.610003 78.08813,-33.561676 -12.6407,29.419375 -24.38397,59.326115 -52.14722,80.532898 24.20804,0.44879 46.58561,-8.47251 68.44532,-20.044739 -15.98909,33.286029 -34.99303,62.097459 -63.28418,77.124909 1.00734,91.76324 -22.65555,178.71366 -61.23487,262.75409 -43.62687,73.36029 -92.06983,144.20339 -207.3042,180.13708 -109.65452,24.16317 -208.505517,16.77871 -287.516598,-48.54077 58.15281,-0.2966 117.632238,-11.27411 182.904538,-68.89154 -71.94711,-12.38104 -102.06605,-55.3302 -122.604245,-105.281 24.942859,4.7958 47.062615,5.21806 62.195065,-5.18439 C 70.690265,361.67806 32.525268,314.2228 28.18457,233.9566 45.240175,248.63058 65.458599,250.05912 85.456787,252.40997 38.342184,197.81259 9.698234,135.38581 44.917725,45.888428 110.18362,128.77755 187.25218,197.47843 315.99731,204.05771 314.75015,146.40164 305.78078,88.681692 381.24658,31.660187 405.52367,19.204038 431.89516,17.15975 459.25537,20.030701 c 32.49115,4.42117 57.14195,21.663751 78.32398,44.578857 z"
+       id="path1162"
+       sodipodi:nodetypes="cccccccccccccccccc" />
+  </g>
+</svg>

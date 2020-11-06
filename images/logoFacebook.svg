@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="650"
+   height="650"
+   viewBox="0 0 650 650"
+   version="1.1"
+   id="svg31"
+   inkscape:version="1.0.1 (1.0.1+r73)"
+   sodipodi:docname="logoFacebook.svg">
+  <defs
+     id="defs25">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath20">
+      <path
+         d="M 0,790.889 H 900 V 0 H 0 Z"
+         id="path18" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath20-4">
+      <path
+         d="M 0,790.889 H 900 V 0 H 0 Z"
+         id="path18-4" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="261.2871"
+     inkscape:cy="326.29472"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="1600"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="false" />
+  <metadata
+     id="metadata28">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layer 1"
+     style="display:inline">
+    <path
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.887926px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 269.07779,314.54601 V 650.86688 H 158.36049 47.643181 C 25.482262,649.93264 4.1673119,647.41928 0.22521225,612.47704 l 0,-287.3703 0,-271.71897 C -3.8794029,7.5727633 19.746189,0.47759138 47.643181,-0.65340287 H 328.31616 468.65265 608.98914 C 640.52797,3.2145921 659.60115,17.456146 652.75599,53.266208 l 0,271.597402 0,287.24875 c -6.40388,19.79073 -11.058,41.08529 -43.76685,38.26827 h -130.7808 -130.7808 v -337.3498 h 66.73515 l 13.3739,-49.66981 h -79.90717 v -73.6789 c 2.20326,-9.68401 4.40694,-19.36771 20.26272,-20.16437 h 52.57246 v -63.04109 h -78.212 c -32.92621,5.45743 -63.48018,15.52784 -70.9097,70.56553 v 84.93136 h -50.49702 v 52.51206 z"
+       id="path1127"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccc" />
+  </g>
+</svg>
