@@ -38,11 +38,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="390.92856"
-     inkscape:cy="345.59556"
+     inkscape:zoom="1"
+     inkscape:cx="314.4414"
+     inkscape:cy="267.69777"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g841"
      inkscape:document-rotation="0"
      showgrid="false"
      units="px"
@@ -66,11 +66,12 @@
   </metadata>
   <g
      inkscape:groupmode="layer"
-     id="layer1"
-     inkscape:label="Layer 1">
+     id="g841"
+     inkscape:label="Layer 1 copia">
     <path
-       style="fill:#ffffff;stroke:#000000;stroke-width:44.2191;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 250.30958,43.624758 489.18582,292.1407 245.73144,539.6783"
-       id="path874" />
+       style="fill:none;stroke:#000000;stroke-width:44.1744;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 205.2889,48.729532 469.70301,321.95017 199.03849,597.40084"
+       id="path839"
+       sodipodi:nodetypes="ccc" />
   </g>
 </svg>

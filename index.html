@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Epic Games | Home</title>
+    <link rel="stylesheet" href="css/html.css">
+    <link rel="stylesheet" href="css/header.css">
 </head>
 <body>
     <main>
@@ -11,18 +13,18 @@
         <header>
             <a class="header__ImgLogoEpicGames" href="https://www.epicgames.com/store/en-US/?lang=en-US">
                 <picture>
-                    <img src="images/testLogoEpicGames_01.svg" title="Epic Games" alt="Logo Epic games">
+                    <img src="images/logoEpicGames.svg" title="Epic Games" alt="Logo Epic games">
                 </picture>
             </a>
             <input type="checkbox" id="openOffCanvas" >
             <label class="header__LabelOpenMenu" for='openOffCanvas'>
                 <picture>
-                    <img src='images/menu.png' alt='menu'>
+                    <img src='images/menu.svg' alt='menu'>
                 </picture>
             </label>
             <label class="header__LabelCloseMenu" onclick="disableEnableInputLanguage()" for='openOffCanvas'>
                 <picture>
-                    <img src='images/close.png' alt='menu'>
+                    <img src='images/closeMenu.svg' alt='menu'>
                 </picture>
             </label>
             <input type="checkbox" id="openOffCanvasLanguage">
@@ -38,13 +40,13 @@
                 </nav>
                 <label class="header__ImgLanguages" for='openOffCanvasLanguage'>
                     <picture>
-                        <img src="images/world.png" alt="Epic games">
+                        <img src="images/world.svg" alt="Epic games">
                     </picture>
                 </label>
                 <div class="header__NavLanguages">
                     <label class="header__LanguageBack" for='openOffCanvasLanguage'>
                         <picture>
-                            <img src="images/back.png" alt="Epic games">
+                            <img src="images/backLanguageMenu.svg" alt="Epic games">
                         </picture>
                         <a href="https://www.epicgames.com/site/ar/home?lang=en-US"><span>English</span></a>
                     </label>
@@ -69,7 +71,7 @@
                 </div> 
                 <div class="header__ImgUser" onclick="pageUnrealEngine()">
                     <picture>
-                        <img src="images/user.png"  alt="Sign In">
+                        <img src="images/user.svg"  alt="Sign In">
                     </picture>
                     <a href="https://www.epicgames.com/id/login?productName=epic-games&lang=en_US&redirectUrl=https%3A%2F%2Fwww.epicgames.com%2Fsite%2Fen-US%2Fhome&client_id=5a6fcd3b82e04f8fa0065253835c5221&noHostRedirect=true" title="Sig In">Sign In </a>
                 </div>
@@ -80,23 +82,23 @@
         </header>
         <!-- end header -->
         <!-- start section__01Animation -->       
-        <section class="section__Animation" id="section__Animation" onclick="disableEnableInputNavAndLanguage()">    
+        <!-- <section class="section__Animation" id="section__Animation" onclick="disableEnableInputNavAndLanguage()">    
            
         </section>
         <picture class="section__Animation__Next">
-            <img src="images/nextLeft.png"   onclick="moveLeft()" alt="Next left">
-            <img src="images/nextRigth.png"  onclick="moveRight()" alt="Next rigth">
-        </picture>
+            <img src="images/nextLeft.svg"   onclick="moveLeft()" alt="Next left">
+            <img src="images/nextRight.svg"  onclick="moveRight()" alt="Next rigth">
+        </picture> -->
         <!-- end section__01Animation -->
         <!-- start footer -->
-        <footer>
+        <!-- <footer>
             <figure class="footer__SocialNetworks">
-                <a href="https://www.facebook.com/epicgames"><img src='images/facebook.png' alt='Logo facebook'></a>
-                <a href="https://twitter.com/epicgames"></a><img src='images/twitter.png' alt='Logo twiter'></a>
-                <a href="https://www.youtube.com/user/epicgamesinc"></a><img src='images/youtube.png' alt='Logo youtube'></a>
+                <a href="https://www.facebook.com/epicgames"><img src='images/logoFacebook.svg' alt='Logo facebook'></a>
+                <a href="https://twitter.com/epicgames"></a><img src='images/logoTwitter.svg' alt='Logo twiter'></a>
+                <a href="https://www.youtube.com/user/epicgamesinc"></a><img src='images/logoYoutube.svg' alt='Logo youtube'></a>
             </figure>
             <picture class="footer__BackFooter">
-                <img src="images/backFooter.png">
+                <img src="images/backFooter.svg">
             </picture>
             <div class="footer__ResourcesDiv">
                 <span>Resources</span>
@@ -144,13 +146,13 @@
                 <li><a href="/site/en-US/account-security">Cookies Settings</a></li>
             </ul>
             <figure class="footer__LogoEpicUnreal">
-                <img src='images/logoEpicGames.png' alt='Logo facebook'>
-                <a href="https://www.unrealengine.com/en-US/"><img src='images/logoUnrealEngine.png' alt='Logo twiter'></a>
+                <img src='images/logoEpicGames.svg' alt='Logo facebook'>
+                <a href="https://www.unrealengine.com/en-US/"><img src='images/logoUnrealEngine.svg' alt='Logo twiter'></a>
             </figure>
-        </footer>
+        </footer> -->
         <!-- end footer -->
         <!-- start section__Cookies -->
-        <section id="section__Cookies" class="section__Cookies">
+        <!-- <section id="section__Cookies" class="section__Cookies">
             <p>By clicking “Accept All Cookies”, you agree to 
                 the storing of cookies on your device to enhance 
                 site navigation, analyze site usage, and personalize 
@@ -160,7 +162,7 @@
             <a class="section__CookiesSetting" href="https://www.epicgames.com/shadowcomplex">Cookies Settings</a>
             <button onclick="cookies()" ><strong>Accept All Cookies</strong></button>
             <button onclick="cookies()" >X</button>
-        </section>
+        </section> -->
         <!-- end section__Cookies -->
     </main>
 </body>
