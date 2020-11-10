@@ -165,5 +165,270 @@
         </section> -->
         <!-- end section__Cookies -->
     </main>
+    <script>
+        function pageUnrealEngine(){
+          window.location = "https://www.epicgames.com/id/login?productName=epic-games&lang=en_US&redirectUrl=https%3A%2F%2Fwww.epicgames.com%2Fsite%2Fen-US%2Fhome&client_id=5a6fcd3b82e04f8fa0065253835c5221&noHostRedirect=true";
+        }       
+        function disableEnableInputLanguage(){
+            document.getElementById("openOffCanvasLanguage").checked = false;
+        }
+        function disableEnableInputNavAndLanguage(){
+            document.getElementById("openOffCanvasLanguage").checked = false;
+            document.getElementById("openOffCanvas").checked = false;
+        }
+        function cookies(){
+            document.getElementById("section__Cookies").style.display = "none";
+        }
+
+        var animationImages = document.getElementById("section__Animation").animate([
+                {transform:"translateX(-0px)"},
+                {transform:"translateX(-5300px)"}
+                ],{duration: 50000,
+                iterations: Infinity});
+
+        animationImages.pause(); 
+                       
+        setTimeout(function() {
+            animationImages.play()}, 
+            5000);
+        
+        function moveLeft() 
+        {
+            var elementDiv = document.getElementById("section__Animation__01");
+            var elementpropertiesDiv = elementDiv.getBoundingClientRect();
+            var width = elementpropertiesDiv.width;
+            console.log(width + "tamaño imagen");
+
+            var elementClass = document.getElementById("section__Animation");
+            var positionClass = elementClass.getBoundingClientRect();
+            var left=positionClass.left;
+            console.log(left + "left null");
+            animationImages.cancel();
+            
+            if (width === 1024) 
+            {
+                if(left == 0 && left > -1024)
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(-4096px)"; 
+                    console.log(left + "left into");
+                    console.log("entro imagen 2 left");
+                }
+                else if (left == -4096 || left < -3072)
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(-3072px)"; 
+                    console.log(left + "left into");                   
+                    console.log("entro imagen 3 left");
+                }
+                else if (left == -3072 || left < -2048)
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(-2048px)"; 
+                    console.log(left + "left into");                   
+                    console.log("entro imagen 4 left");
+                } 
+                else if (left == -2048 || left < -1024)
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(-1024px)"; 
+                    console.log(left + "left into");                    
+                    console.log("entro imagen 4 left");
+                } 
+                else 
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(0px)"; 
+                    console.log(left + "left into");               
+                    console.log("entro imagen 1 left");
+                }  
+            }
+            if (width === 685) 
+            {
+                if(left == 0 || left > -685)
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(-2740px)"; 
+                    console.log(left + "left into");                   
+                    console.log("entro imagen 2 left");
+                }
+                else if (left == -2740 || left < -2055)
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(-2055px)"; 
+                    console.log(left + "left into");
+                    console.log("entro imagen 3 left");
+                }
+                else if (left == -2055 || left < -1370)
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(-1370px)"; 
+                    console.log(left + "left into");                   
+                    console.log("entro imagen 4 left");
+                } 
+                else if (left == -1370 || left < -685)
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(-685px)"; 
+                    console.log(left + "left into");                   
+                    console.log("entro imagen 4 left");
+                } 
+                else 
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(0px)"; 
+                    console.log(left + "left into");                    
+                    console.log("entro imagen 1 left");
+                }  
+            }
+            if (width === 700) 
+            {
+                if(left == 0 || left > -700)
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(-2800px)"; 
+                    console.log(left + "left into");                    
+                    console.log("entro imagen 2 left");
+                }
+                else if (left == -2800 || left < -2100)
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(-2100px)"; 
+                    console.log(left + "left into");                    
+                    console.log("entro imagen 3 left");
+                }
+                else if (left == -2100 || left < -1400)
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(-1400px)"; 
+                    console.log(left + "left into");                    
+                    console.log("entro imagen 4 left");
+                } 
+                else if (left == -1400 || left < -700)
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(-700px)"; 
+                    console.log(left + "left into");                   
+                    console.log("entro imagen 4 left");
+                } 
+                else 
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(0px)"; 
+                    console.log(left + "left into");                   
+                    console.log("entro imagen 1 left");
+                }   
+            }
+            console.log(
+            positionClass.top + " topClass \n", 
+            positionClass.right + " rightClass \n", 
+            positionClass.bottom  + " bottomClass \n", 
+            positionClass.left  + " leftClass \n");
+      } 
+      function moveRight() 
+        {
+            var elementDiv = document.getElementById("section__Animation__01");
+            var elementpropertiesDiv = elementDiv.getBoundingClientRect();
+            var width = elementpropertiesDiv.width;
+            console.log(width + "tamaño imagen");
+
+            var elementClass = document.getElementById("section__Animation");
+            var positionClass = elementClass.getBoundingClientRect();
+            var left=positionClass.left;
+            console.log(left + "left");
+            animationImages.cancel();
+            
+            if (width === 1024) 
+            {
+                if(left == 0 || left > -1024)
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(-1024px)"; 
+                    console.log(left + "left into");                    
+                    console.log("entro imagen 2");
+                }
+                else if (left == -1024 || left > -2048)
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(-2048px)"; 
+                    console.log(left + "left into");                   
+                    console.log("entro imagen 3");
+                }
+                else if (left == -2048 || left > -3072)
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(-3072px)"; 
+                    console.log(left + "left into");                    
+                    console.log("entro imagen 4");
+                }  
+                else if (left == -3072 || left > -4096)
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(-4096px)"; 
+                    console.log(left + "left into");                    
+                    console.log("entro imagen 5");
+                }  
+                else 
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(0px)"; 
+                    console.log(left + "left into");                    
+                    console.log("entro imagen 1");
+                }  
+            }
+            if (width === 685) 
+            {
+                if(left == 0 || left > -685)
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(-685px)"; 
+                    console.log(left + "left into");                    
+                    console.log("entro imagen 2");
+                }
+                else if (left == -685 || left > -1370)
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(-1370px)"; 
+                    console.log(left + "left into");                    
+                    console.log("entro imagen 3");
+                }
+                else if (left == -1370 || left > -2055)
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(-2055px)"; 
+                    console.log(left + "left into");                    
+                    console.log("entro imagen 4");
+                }  
+                else if (left == -2055 || left > -2740)
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(-2740px)"; 
+                    console.log(left + "left into");                    
+                    console.log("entro imagen 5");
+                }  
+                else 
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(0px)"; 
+                    console.log(left + "left into");                    
+                    console.log("entro imagen 1");
+                }  
+            }
+            if (width === 700) 
+            {
+                if(left == 0 || left > -700)
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(-700px)"; 
+                    console.log(left + "left into");                    
+                    console.log("entro imagen 2");
+                }
+                else if (left == -700 || left > -1400)
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(-1400px)"; 
+                    console.log(left + "left into");                   
+                    console.log("entro imagen 3");
+                }
+                else if (left == -1400 || left > -2100)
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(-2100px)"; 
+                    console.log(left + "left into");                    
+                    console.log("entro imagen 4");
+                }  
+                else if (left == -2100 || left > -2800)
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(-2800px)"; 
+                    console.log(left + "left into");                    
+                    console.log("entro imagen 5");
+                }  
+                else 
+                {
+                    document.getElementById("section__Animation").style.transform = "translateX(0px)"; 
+                    console.log(left + "left into");                    
+                    console.log("entro imagen 1");
+                }  
+            }
+            console.log(
+            positionClass.top + " topClass \n", 
+            positionClass.right + " rightClass \n", 
+            positionClass.bottom  + " bottomClass \n", 
+            positionClass.left  + " leftClass \n");
+      } 
+
+    </script>
 </body>
 </html>
