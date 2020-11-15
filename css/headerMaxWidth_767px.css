@@ -7,8 +7,6 @@
     --blue: #0078f2;
     --white: #fff;
 }*/
-
-
 input, .header__LabelCloseMenu, .header__ImgUser,
 .header__GetEpicGames a, .header__ImgLanguages {
     display: none;
@@ -49,7 +47,7 @@ header img{
     grid-area: LabelMenu;
 }
 .header__LabelOpenMenu {
-    background-color: #0078f2;
+    background-color:var(--blue);
     width: 100%;
     height: 100%;
     display: grid;
