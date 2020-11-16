@@ -10,8 +10,6 @@
   margin: 0px;
   padding: 0px;
   margin-left: 10px;
-  font-size: 1.6rem;
-  font-family: sans-serif;
 }
 .section__CookiesSetting {
   grid-area: CookiesSetting;
