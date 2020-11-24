@@ -38,7 +38,9 @@
   margin-left: 10px;
   align-self: center; 
   justify-self: start; 
-  font-size: 1.6rem; 
+}
+.section__Cookies button:first-of-type strong {
+  font-size: 1.8rem; 
 }
 .section__Cookies button:last-of-type {
   grid-area: CookiesButton02;
@@ -49,8 +51,10 @@
   border: none;
   padding: 0px;
   margin: 10px;
+  margin-right: 20px;
   align-self: start; 
   justify-self: right;
+  font-size: 1.8rem;
 }
 .section__Cookies {
   display: grid;
