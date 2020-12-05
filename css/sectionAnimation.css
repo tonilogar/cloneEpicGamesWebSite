@@ -1,0 +1,208 @@
+/* section__AnimationTestBasicWebPage.css */
+
+.section__Animation {
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template: 1fr  1px/ 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 'Ani01 Ani02 Ani03 Ani04 Ani05 Ani06 Ani07 Ani08 Ani09 Ani010'
+                         'A01   A02   A03   A04   A05   A06   A07   A08   A09   A010 ';
+    align-items: center;
+    justify-items: center;
+}
+
+.section__Animation div {
+    height: 100vh;
+}
+.section__Animation__01 {
+    grid-area: Ani01;
+    background-image: url("../images/unrealEngine.jpg");
+}
+.section__Animation__02 {
+    grid-area: Ani02;
+    background-image: url("../images/battleBreakers.jpg");
+}
+.section__Animation__03 {
+    grid-area: Ani03;
+    background-image: url("../images/fornite.jpg");   
+}  
+.section__Animation__04 {
+    grid-area: Ani04;
+    background-image: url("../images/roboRecall.jpg");
+}
+.section__Animation__05 {
+    grid-area: Ani05;
+    background-image: url("../images/unrealTournament.jpg");
+}
+.section__Animation__06 {
+    grid-area: Ani06;
+    background-image: url("../images/unrealEngine.jpg");
+}
+.section__Animation__07 {
+    grid-area: Ani07;
+    background-image: url("../images/battleBreakers.jpg");
+}
+.section__Animation__08 {
+    grid-area: Ani08;
+    background-image: url("../images/fornite.jpg");   
+}  
+.section__Animation__09 {
+    grid-area: Ani09;
+    background-image: url("../images/roboRecall.jpg");
+}
+.section__Animation__010 {
+    grid-area: Ani010;
+    background-image: url("../images/unrealTournament.jpg");
+}
+.section__Animation > a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    margin: 0px;
+    z-index: 120;
+    position: relative;
+    bottom: 70vh;
+    align-self: left;
+    justify-self: left;
+    margin-left: 20px;
+}
+.section__Animation > a span {  
+    font-size: 2.8em;      
+}
+
+.section__Animation div {
+    z-index: 10;
+}
+.section__Animation div:hover {
+    opacity: .75;
+    transform: scale(1.1);
+    transition: all .5s;
+    z-index: 5;
+}
+
+.section__Animation__Next {
+    position: absolute;
+    width: 100%;
+    top: 50vh;
+    z-index: 150;
+}
+.section__Animation__Next img:first-child {
+    width: 20px;
+    float: left;
+    margin-left: 20px;
+}
+.section__Animation__Next img:last-child {
+    width: 20px;
+    float: right;
+    margin-right: 20px;
+}
+.section__Animation__Next img:hover {
+    cursor: pointer;
+}
+ @media all and (max-width: 1024px) /* 1 imagen */
+{
+    
+    .section__Animation__01 {
+        width: 1024px;
+    }
+    .section__Animation__02 {
+        width: 1024px;
+    }
+    .section__Animation__03 {
+        width: 1024px;
+    }
+    .section__Animation__04 {
+        width: 1024px;
+    }
+    .section__Animation__05 {
+        width: 1024px;
+    }  
+    .section__Animation__06 {
+        width: 1024px;
+    }  
+    .section__Animation__07 {
+        width: 1024px;
+    }
+    .section__Animation__08 {
+        width: 1024px;
+    }
+    .section__Animation__09 {
+        width: 1024px;
+    }
+    .section__Animation__010 {
+        width: 1024px;
+    }  
+    
+}
+
+
+
+@media all and (min-width: 1025px) and (max-width: 1368px) /* 2 imagenes */
+{
+    .section__Animation__01 {
+        width: 685px;
+    }
+    .section__Animation__02 {
+        width: 685px;
+    }
+    .section__Animation__03 {
+        width: 685px;
+    }
+    .section__Animation__04 {
+        width: 685px;
+    }
+    .section__Animation__05 {
+        width: 685px;
+    }  
+    .section__Animation__06 {
+        width: 685px;
+    } 
+    .section__Animation__07 {
+        width: 685px;
+    }
+    .section__Animation__08 {
+        width: 685px;
+    }
+    .section__Animation__09 {
+        width: 685px;
+    }
+    .section__Animation__010 {
+        width: 685px;
+    }  
+    
+}
+
+ 
+@media all and (min-width: 1369px) /* 3 imagenes */
+{
+    .section__Animation__01 {
+        width: 700px;
+    }
+    .section__Animation__02 {
+        width: 700px;
+    }
+    .section__Animation__03 {
+        width: 700px;
+    }
+    .section__Animation__04 {
+        width: 700px;
+    }
+    .section__Animation__05 {
+        width: 700px;
+    }
+    .section__Animation__06 {
+        width: 700px;
+    }
+    .section__Animation__07 {
+        width: 700px;
+    }
+    .section__Animation__08 {
+        width: 700px;
+    }
+    .section__Animation__09 {
+        width: 700px;
+    }
+    .section__Animation__010 {
+        width: 700px;
+    }
+}

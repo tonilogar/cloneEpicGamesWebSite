@@ -11,6 +11,7 @@ input, .header__LabelCloseMenu, .header__ImgUser,
 .header__GetEpicGames a, .header__ImgLanguages {
     display: none;
 }
+
 header a {
     font-size: .9em;
     font-family: OpenSans,sans-serif,arial;
