@@ -25,7 +25,7 @@
     width: 100vw;
     height: 50px;
     background-color:var(--backgroundColorHeader);
-    z-index: 500;
+    z-index: 15;
 }
 
   .section__Animation {

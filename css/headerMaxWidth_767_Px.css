@@ -7,8 +7,7 @@
     --blue: #0078f2;
     --white: #fff;
 }*/
-input, .header__LabelCloseMenu, .header__ImgUser,
-.header__GetEpicGames a, .header__ImgLanguages {
+input, .header__LabelCloseMenu{
     display: none;
 }
 
@@ -89,6 +88,7 @@ header {
     height: 100%;
     border-right: 1px solid rgba(97, 96, 96, 0.178);
     border-top: 1px solid rgba(97, 96, 96, 0.178);
+    
 }
 .header__ImgUser a {
     justify-self: start;
@@ -123,12 +123,12 @@ header {
     list-style: none;
     margin: 0px;
     padding: 0px;
-    position: fixed;
+    position: absolute;
     top: 50px;
     right: -90%;
     background-color:#2a2a2a;
     width: 86%;
-    height: calc(100% - 50px);
+    height: calc(100vh - 50px);
     transition: all .25s;
 }
 .header__NavLanguages {
@@ -139,11 +139,12 @@ header {
     padding: 0px;
     position: fixed;
     top: 50px;
-    right: -90%;
+    right: -97%;
     background-color:#2a2a2a;
     width: 86%;
-    height: calc(100% - 50px);
+    height: calc(100vh - 50px); 
     transition: all .25s;
+    overflow: auto;
     overflow: auto;
 }
 .header__NavLanguages a {
