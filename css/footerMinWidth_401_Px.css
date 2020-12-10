@@ -25,7 +25,8 @@ footer ul {
 }
 .footer__BackFooter {
   grid-area: BackFooter;
-  padding: 10px;
+  padding-top: 10px;
+  padding-right: 50px;
   display: inline-block;
   justify-self: right;
 }

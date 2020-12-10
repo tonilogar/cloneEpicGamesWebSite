@@ -18,10 +18,14 @@
 }
   html {
     font-size: 62.5%;
-    background-color: red;  
+    background-color: red;
+    background-color:var(--backgroundColorHeader);  
     overflow-x: hidden; 
 }
-
+body {
+  overflow-x: hidden;
+  overflow-y: hidden; 
+}
   header {
     position: absolute;
     width: 100vw;
@@ -46,4 +50,7 @@ footer {
   background-color: rgb(199, 188, 188);
   position: absolute;
   top: calc(100vh - 180px);
+}
+input label {
+  display: none;
 }

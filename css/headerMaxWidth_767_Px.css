@@ -130,10 +130,11 @@ header {
     width: 86%;
     height: calc(100vh - 40px);
     transition: all .25s;
+    display: none;   
 }
 .header__NavLanguages {
     grid-area: NavLanguages;
-    display: block;
+    /* display: block; */
     list-style: none;
     margin: 0px;
     padding: 0px;
@@ -144,8 +145,8 @@ header {
     width: 100%;
     height: calc(100vh - 50px); 
     transition: all .25s;
-    overflow: auto;
-    overflow: auto;
+    display: none;
+    z-index: 35;
 }
 .header__NavLanguages a {
     grid-area: LanguageBackA;
@@ -158,7 +159,7 @@ header {
 .header__LanguageBack {
     position: absolute;
     top: 0%;
-    right: -90%;
+    right: 0%;
     display: grid;
     grid-template: 47px / 20px 1fr ;
     grid-template-areas: ' LanguageBackPicture   LanguageBackA '; 
@@ -181,6 +182,7 @@ header {
 }
 #openOffCanvas:checked ~ .header__MenuOffCanvas {
     right: 0px;
+    display: grid;
 }
 #openOffCanvas:checked ~ .header__LabelOpenMenu {
     display: none;
@@ -190,4 +192,5 @@ header {
 }
 #openOffCanvasLanguage:checked ~ .header__MenuOffCanvas .header__NavLanguages {
     right: 0px;
+    display: grid;
 }

@@ -64,10 +64,14 @@
     bottom: 70vh;
     align-self: left;
     justify-self: left;
-    margin-left: 20px;
+    margin-left: 20px;   
 }
 .section__Animation > a span {  
-    font-size: 2.8em;      
+    font-size: 3.8em;  
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.37);
+    font-weight: 1000;
+    line-height: .900em;
+
 }
 
 .section__Animation div {

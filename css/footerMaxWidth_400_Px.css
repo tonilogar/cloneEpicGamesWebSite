@@ -25,7 +25,8 @@ footer ul {
 }
 .footer__BackFooter {
   grid-area: BackFooter;
-  padding: 10px;
+  padding-top: 10px;
+  padding-right: 50px;
   display: inline-block;
   justify-self: right;
 }
@@ -111,7 +112,7 @@ footer ul {
 }
 footer  {
   display: grid;
-  grid-template: 50px 1fr 1fr 1fr 140px 1fr / 200px 200px;
+  grid-template: 50px 1fr 1fr 1fr 140px 1fr / 1fr 1fr;
   grid-template-areas: 'SocialNetworks  BackFooter'
                        'ResourcesDiv ResourcesDiv '
                        'MadeBYEpicGamesDiv MadeBYEpicGamesDiv  '
@@ -120,4 +121,8 @@ footer  {
                        'LogoEpicUnreal LogoEpicUnreal ';  
   background-color:#2a2a2a;
   height: 1000px;
+}
+footer figure {
+  margin: 0px;
+  margin: 0px;
 }
