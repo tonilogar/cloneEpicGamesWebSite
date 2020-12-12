@@ -135,7 +135,7 @@
                 <a href="https://twitter.com/epicgames"></a><img src='images/logoTwitter.svg' alt='Logo twiter'></a>
                 <a href="https://www.youtube.com/user/epicgamesinc"></a><img src='images/logoYoutube.svg' alt='Logo youtube'></a>
             </figure>
-            <picture class="footer__BackFooter">
+            <picture id="footer__BackFooter" class="footer__BackFooter" onclick="backFooter()">
                 <img src="images/downFooter.svg">
             </picture>
             <div class="footer__ResourcesDiv">
@@ -228,7 +228,9 @@
         function cookies(){
             document.getElementById("section__Cookies").style.display = "none";
         }
-
+        function backFooter(){
+            window.scrollTo(0, 0);
+        }
         var animationImages = document.getElementById("section__Animation").animate([
                 {transform:"translateX(-0px)"},
                 {transform:"translateX(-5300px)"}

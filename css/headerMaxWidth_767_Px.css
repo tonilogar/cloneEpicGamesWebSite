@@ -147,6 +147,7 @@ header {
     transition: all .25s;
     display: none;
     z-index: 35;
+    overflow: scroll;
 }
 .header__NavLanguages a {
     grid-area: LanguageBackA;
