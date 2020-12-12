@@ -27,7 +27,7 @@
                 </picture>
             </a>
             <input type="checkbox" id="openOffCanvas" >
-            <label class="header__LabelOpenMenu" for='openOffCanvas'>
+            <label class="header__LabelOpenMenu" onclick="disableScrollY()" for='openOffCanvas'>
                 <picture>
                     <img src='images/menu.svg' alt='menu'>
                 </picture>
@@ -121,12 +121,11 @@
             <a href="https://www.unrealengine.com/en-US/" class="section__Animation__09--A" ><span> Unreal engine</span></a>
         
             <div class="section__Animation__010"></div>
-            <a href="https://www.unrealengine.com/en-US/" class="section__Animation__010--A" ><span> Unreal engine</span></a>
-        
+            <a href="https://www.unrealengine.com/en-US/" class="section__Animation__010--A" ><span> Unreal engine</span></a>   
         </section>
         <picture class="section__Animation__Next">
-            <img src="images/nextLeft.svg"   onclick="moveLeft()" alt="Next left">
-            <img src="images/nextRight.svg"  onclick="moveRight()" alt="Next rigth">
+            <img src="images/nextLeft.svg"   id="moveLeft" onclick="moveLeft()" alt="Next left">
+            <img src="images/nextRight.svg"  id="moveRight" onclick="moveRight()" alt="Next rigth">
         </picture>
         <!-- end section__01Animation -->
         <!-- start footer -->
@@ -210,14 +209,21 @@
         }       
         function disableEnableInputLanguage(){
             document.getElementById("openOffCanvasLanguage").checked = false;
-            /* cuando cierres con la x activar el scrooll y fde HTML
-            window.scrollTo(0, 0);
-            document.getElementById("openOffCanvasLanguage").checked = false; */
-            
+            document.getElementById("html").style.overflow = "scroll";
+            document.getElementById("moveLeft").style.display = "block";
+            document.getElementById("moveRight").style.display = "block"; 
         }
         function disableEnableInputNavAndLanguage(){
             document.getElementById("openOffCanvasLanguage").checked = false;
             document.getElementById("openOffCanvas").checked = false;
+            document.getElementById("html").style.overflow = "scroll";
+            document.getElementById("moveLeft").style.display = "block";
+            document.getElementById("moveRight").style.display = "block";
+        }
+        function disableScrollY(){
+            document.getElementById("html").style.overflow = "hidden";
+            document.getElementById("moveLeft").style.display = "none";
+            document.getElementById("moveRight").style.display = "none";
         }
         function cookies(){
             document.getElementById("section__Cookies").style.display = "none";
