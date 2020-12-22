@@ -36,6 +36,7 @@ header li {
 header img{
     width: 26px;
 }
+
 .header__ImgLogoEpicGames {
     grid-area: ImgLogoEpicGames;
 }

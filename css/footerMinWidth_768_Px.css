@@ -35,6 +35,7 @@ footer ul {
 }
 .footer__BackFooter:hover {
   cursor: grabbing;
+  color: blue;
 }
 .footer__ResourcesDiv {
   grid-area: ResourcesDiv;
@@ -72,63 +73,58 @@ footer ul {
   grid-area: EpicGamesInc;
   color:var(--colorTextHardGrey);
   padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 .footer__TermsUl {
   grid-area: TermsUl;
-  text-align: center;
+  text-align: start;
+  padding-left: 15px;
+  width: 768px;
+}
+.footer__TermsUl li {
+  display: inline-block; 
 }
 
 .footer__LogoEpicUnreal {
+  justify-self: end;
+  align-self: start;
   grid-area: LogoEpicUnreal;
   display: grid;
-  grid-template: 1fr / 1fr 1fr;
+  grid-template: 1fr / 40px 40px;
   padding: 10px;
-  align-items: center;
-  justify-items: center;
+  padding-right: 30px;
   background-color:var(--backgroundColorHeader);
 }
+
 .footer__LogoEpicUnreal img{
   justify-self: end;
 }
 .footer__LogoEpicUnreal a{
-  justify-self: start;
+  justify-self: end;
 }
 .footer__ResourcesDiv {
   display: grid;
-  grid-template: 30px 1fr 1fr 1fr / 170px ;
-  grid-template-areas: ' ResourcesSpan  '
-                       ' ResourcesUl01  '
-                       ' ResourcesUl02  '
-                       ' ResourcesUl03  ';
-  justify-items: start;
-  align-items: start;
+  grid-template: 30px 1fr / 170 170px 170px;
+  grid-template-areas: ' ResourcesSpan . . '
+                       ' ResourcesUl01 ResourcesUl02 ResourcesUl03' ; 
 }
 .footer__MadeBYEpicGamesDiv {
+  margin-left: 80px;
+  margin-top: 5px;
   display: grid;
-  grid-template: 30px 1fr 1fr / 170px ;
-  grid-template-areas: ' MadeBYEpicGamesSpan  '
-                       ' MadeBYEpicGamesUl01  '
-                       ' MadeBYEpicGamesUl02';
-  justify-items: start;
-  align-items: start;
+  grid-template: 30px 1fr / 170px 170px  ;
+  grid-template-areas: ' MadeBYEpicGamesSpan .'
+                       ' MadeBYEpicGamesUl01 MadeBYEpicGamesUl02';
 }
-.footer__EpicGamesInc {
-  padding-top: 5px;
-  padding-bottom: 10px;
-}
+
 footer  {
   display: grid;
-  grid-template: 50px 1fr 1fr 1fr 140px 1fr / 1fr 1fr;
-  grid-template-areas: 'SocialNetworks  BackFooter'
-                       'ResourcesDiv ResourcesDiv '
-                       'MadeBYEpicGamesDiv MadeBYEpicGamesDiv  '
-                       'EpicGamesInc EpicGamesInc '
-                       'TermsUl TermsUl '
-                       'LogoEpicUnreal LogoEpicUnreal ';  
+  grid-template: 50px 200px 160px  1fr / 200px 200px 1fr ;
+  grid-template-areas: 'SocialNetworks  . BackFooter'
+                       'ResourcesDiv MadeBYEpicGamesDiv MadeBYEpicGamesDiv '
+                       'EpicGamesInc EpicGamesInc EpicGamesInc '
+                       'TermsUl TermsUl LogoEpicUnreal '; 
   background-color:#2a2a2a;
-  height: 1000px;
-}
-footer figure {
-  margin: 0px;
-  margin: 0px;
+  /* height: 1000px; */
 }
