@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20" height="20" version="1.1" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Black Logo Square</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+ <title>Black Logo Square</title>
+ <desc>Created with Sketch.</desc>
+ <g>
+  <path d="m16.974 6.4879c-0.99511-1.4503-2.5202-1.9536-4.363-1.8893-2.9327 0.37416-2.5613 1.1845-3.6369 0.89574-0.61684-0.57108-1.0162-0.80831-2.1992-0.9323-1.2686 0.0058-2.5331 0.28961-3.7849 1.4196-1.0633 1.3201-1.7071 2.9146-1.5283 5.0471 0.01895 1.7983 0.58828 3.5897 1.6263 5.3752l1.5695 2.0221c0.71972 0.87731 1.5929 1.431 3.0272 0.80169 1.1298-0.50955 2.2986-0.84247 3.6665-0.27145 1.095 0.55357 2.1785 0.77638 3.2224-0.12432 1.2574-1.2403 2.2723-2.732 2.9156-4.609-1.6696-0.81076-2.6124-2.1051-2.6685-3.9892 0.17353-1.5862 0.8753-2.8447 2.1534-3.7457z" stroke="#000" stroke-width=".05"/>
+ </g>
+ <path d="m13.43 0.13924c-1.2919 0.067067-2.1516 0.76945-2.9624 1.5436-0.80883 0.90402-1.0105 1.9185-0.98292 2.9747 1.096-0.062376 2.1501-0.28409 2.9709-1.3929 0.94005-0.95002 1.0148-2.0291 0.97438-3.1254z" stroke="#000" stroke-width=".05"/>
+</svg>

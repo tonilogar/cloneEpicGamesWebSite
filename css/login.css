@@ -1,0 +1,120 @@
+:root {
+    /* Colors */
+    --backgroundColorHeader: #2a2a2a;
+    --backgroundColorFooter: #333;
+    --colorTextHardGrey:rgb(112, 112, 112);
+    --colorTextSoftGrey: #ccc;
+    --colorTextSoftBlue: #337ab7;;
+    --blue: #0078f2;
+    --white: #fff;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+  html {
+    font-size: 62.5%;
+    background-color:#121212;;  
+    /* overflow-x: hidden;  */
+}
+body {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+main {
+  margin-top: 100px;
+  display: grid;
+  width: 470px;
+  height: 680px;
+  background-color: #313131;; 
+  justify-items: center;
+  align-items: center;
+  grid-template:  80px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px / 1fr;
+  grid-row-gap: 8px;
+}
+main svg{
+  width: 50px; 
+  margin-top: 20px;
+}
+
+.logo svg {
+  width: 30px;
+  margin: 10px;
+}
+.logo div {
+  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+}
+.logoEpicGames
+{
+  background-color: rgb(29, 29, 29);
+}
+.logoFacebook
+{
+  background-color:blue;
+}
+.logoGoogle
+{
+  background-color: white;
+}
+.logoXbox
+{
+  background-color: Green;
+}
+.logoXbox svg path
+{
+  fill: white;
+}
+.logoPlayStation
+{
+  background-color:blue;
+}
+.logoNintendo
+{
+  background-color: red;
+}
+.logoSteam
+{
+  background-color: blue;
+}
+.logoApple
+{
+  background-color: white;
+}
+
+.logo:hover, .logo div:hover {
+  background-color: rgba(49, 49, 49);
+}
+main a {
+  border-radius: 4px;
+  background-color: rgba(29, 29, 29, 0.5); 
+  display: grid;
+  justify-items: start;
+  align-items: center;
+  grid-template: 50px / 1fr 320px/* minmax(320px, 470px) */;
+  text-decoration: none;
+}
+h1 ,span {
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.4em;
+}
+span {
+  margin-left: 10px;
+}
+.singUp {
+  text-transform: none;
+}
+span a {
+  border-radius: none;
+  background-color: rgba(255, 0, 0, 0); 
+  display: inline-block;
+  color: #acacac;
+  font-size: 0.8em ;
+}
+ 
