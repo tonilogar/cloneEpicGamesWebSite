@@ -1,0 +1,198 @@
+/* :root {
+    --backgroundColorHeader: #2a2a2a;
+    --backgroundColorFooter: #333;
+    --colorTextHardGrey: #ccc;
+    --colorTextSoftGrey: rgb(112, 112, 112);;
+    --colorTextSoftBlue:: #337ab7;;
+    --blue: #0078f2;
+    --white: #fff;
+}*/
+input, .header__LabelCloseMenu{
+    display: none;
+}
+
+header a {
+    font-size: .9em;
+    font-family: OpenSans,sans-serif,arial;
+    color: rgb(167, 167, 167);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+}
+header ul {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+header li {
+    list-style: none;
+    border-bottom: 1px solid  #333;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 30px;
+    margin: 0px;
+}
+header img{
+    width: 26px;
+}
+
+.header__ImgLogoEpicGames {
+    grid-area: ImgLogoEpicGames;
+}
+.header__ImgLogoEpicGames picture img{
+    width: 30px;
+    display: block;
+    float: left;
+    margin: 10px 10px 10px 20px;
+}
+.header__LabelOpenMenu, .header__LabelCloseMenu {
+    grid-area: LabelMenu;
+}
+.header__LabelOpenMenu {
+    background-color:var(--blue);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.header__LabelOpenMenu picture img, .header__LabelCloseMenu picture img{
+    display: block;
+    margin: 10px;
+}
+
+.header__ImgUser:hover, .header__ImgLanguages:hover, 
+.header__GetEpicGames:hover, .header__LabelOpenMenu:hover, 
+.header__LabelCloseMenu:hover, .header__LanguageBack:hover,
+.header__NavLanguages li:hover, .header__NavMenu li:hover, 
+.header__LabelCloseBack {
+    cursor: pointer;
+}
+header {
+    display: grid;
+    grid-template: 50px / 1fr 50px;
+    grid-template-areas: 'ImgLogoEpicGames . LabelMenu';  
+    align-items: center;
+}
+.header__NavMenu {
+    grid-area: NavMenu;
+    width: 100%;
+}
+.header__ImgUser {
+    grid-area: ImgUser;
+    display: grid;
+    grid-template: 50px / 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid rgba(97, 96, 96, 0.178);
+    border-top: 1px solid rgba(97, 96, 96, 0.178);
+    
+}
+.header__ImgUser a {
+    justify-self: start;
+}
+.header__ImgLanguages {
+    grid-area: ImgLanguages;
+    width: 100%;
+    height: 100%;
+    display:grid;
+    justify-items: center;
+    align-items: center;
+    border-top: 1px solid rgba(97, 96, 96, 0.178);
+}
+.header__GetEpicGames {
+    grid-area: GetEpicGames;
+    background-color: #0078f2;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.header__MenuOffCanvas {
+    display: grid;
+    grid-template: 250px 1fr 50px 40px / 60% 1fr;
+    grid-template-areas: 'NavMenu         NavMenu'
+                         ' .               . '
+                         'ImgUser       ImgLanguages'
+                         'GetEpicGames    GetEpicGames';  
+    justify-items: center;
+    align-items: center;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 40px;
+    right: -90%;
+    background-color:#2a2a2a;
+    width: 86%;
+    height: calc(100vh - 40px);
+    transition: all .25s;
+    display: none;   
+}
+.header__NavLanguages {
+    grid-area: NavLanguages;
+    /* display: block; */
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 8px;
+    right: -100%;
+    background-color:#2a2a2a;
+    width: 100%;
+    height: calc(100vh - 50px); 
+    transition: all .25s;
+    display: none;
+    z-index: 35;
+    overflow: scroll;
+}
+.header__NavLanguages a {
+    grid-area: LanguageBackA;
+    justify-self: center;
+    align-self: center;
+}
+.header__NavLanguages a:hover{
+    color: white;
+}
+.header__LanguageBack {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    display: grid;
+    grid-template: 47px / 20px 1fr ;
+    grid-template-areas: ' LanguageBackPicture   LanguageBackA '; 
+    justify-items: center;
+    align-items: center;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    transition: all .25s;
+    background-color: black;
+}
+.header__LanguageBack picture {
+    grid-area: LanguageBackPicture;
+    justify-self: start;
+    padding-left: 10px;
+}
+.header__LanguageBack img {
+    width: 10px;
+}
+#openOffCanvas:checked ~ .header__MenuOffCanvas {
+    right: 0px;
+    display: grid;
+}
+#openOffCanvas:checked ~ .header__LabelOpenMenu {
+    display: none;
+}
+#openOffCanvas:checked ~ .header__LabelCloseMenu {
+    display: block;
+}
+#openOffCanvasLanguage:checked ~ .header__MenuOffCanvas .header__NavLanguages {
+    right: 0px;
+    display: grid;
+}

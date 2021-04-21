@@ -105,7 +105,7 @@ footer ul {
 }
 .footer__ResourcesDiv {
   display: grid;
-  grid-template: 30px 1fr / 170 170px 170px;
+  grid-template: 30px 1fr / 170px 170px 170px;
   grid-template-areas: ' ResourcesSpan . . '
                        ' ResourcesUl01 ResourcesUl02 ResourcesUl03' ; 
 }
